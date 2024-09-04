@@ -289,7 +289,7 @@
  <h1> 🌼화면 설계서 </h1>
    
   </summary>
-  (https://www.figma.com/design/vgABOThuvnOdEdwMbqtJk2/mingle?node-id=0-1&t=Igw3yxiZ4yRqkeHs-0)
+  [MINGLE-CRM 화면설계서](https://www.figma.com/design/ll1i2Pv3HODK5NsBfh0ksr/MINGLE-CRM-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C?t=lpLTWqRIYJjgrV29-1)
 </details>
 
 
