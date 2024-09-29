@@ -66,7 +66,7 @@ public class SecurityConfig {
                     @Override
                     public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
                         CorsConfiguration config = new CorsConfiguration();
-                        config.setAllowedOrigins(Collections.singletonList("http://localhost:8081"));
+                        config.setAllowedOrigins(Collections.singletonList("http://localhost:8081, http://43.201.250.212, https://43.201.250.212"));
                         config.setAllowedMethods(Collections.singletonList("*"));
                         config.setAllowedHeaders(Collections.singletonList("*"));
                         config.setExposedHeaders(Arrays.asList("Authorization"));
@@ -77,11 +77,11 @@ public class SecurityConfig {
                 }))
 
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
-                /*.authenticationProvider(jwtAuthenticationProvider)*/
+                .authenticationProvider(jwtAuthenticationProvider)
                 .authorizeHttpRequests(requests -> {
                     requests.requestMatchers("/api/v1/auth/signintest", "/api/v1/auth/signup", "/api/v1/auth/renew",
-                                    "/api/readcheck/**", "/**").permitAll()
-                            /*.requestMatchers(PathRequest.toH2Console()).permitAll() */
+                                    "/api/readcheck/**", "").permitAll()
+                            .requestMatchers(PathRequest.toH2Console()).permitAll()
                             .anyRequest().authenticated();
                 });
 
