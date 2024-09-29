@@ -13,7 +13,7 @@ spring:
 
   jpa:  # https://joyerim.tistory.com/6#%E2%96%AA%C2%A0JPA-1
     defer-datasource-initialization: true
-    show-sql: true
+    show-sql: false
     hibernate:
       ddl-auto: create
       generate-ddl: true
@@ -70,3 +70,9 @@ spring:
 
 server:
   port: 8080
+
+# SQL 로그 설정
+logging:
+  level:
+    org.hibernate.SQL: error
+    org.hibernate.type: error
