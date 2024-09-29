@@ -80,7 +80,7 @@ public class SecurityConfig {
                 .authenticationProvider(jwtAuthenticationProvider)
                 .authorizeHttpRequests(requests -> {
                     requests.requestMatchers("/api/v1/auth/signintest", "/api/v1/auth/signup", "/api/v1/auth/renew",
-                                    "/api/readcheck/**", "").permitAll()
+                                    "/api/readcheck/**", "/**").permitAll()
                             .requestMatchers(PathRequest.toH2Console()).permitAll()
                             .anyRequest().authenticated();
                 });
