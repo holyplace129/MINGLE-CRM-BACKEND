@@ -77,19 +77,23 @@ public class EmployeeService {
 
         if (tempEmployee.isPresent()) {
             Employee employee = tempEmployee.get();
-
+            System.out.println("debug1");
             if (!employee.getEmail().equals(request.getEmail())) {
+                System.out.println("debug2");
                 return false;
             }
 
             boolean matches = passwordEncoder.matches(request.getPassword(), employee.getPassword());
+            System.out.println("debug3");
             if (!matches) {
+                System.out.println("debug4");
                 return false;
             }
-
+            System.out.println("debug5");
             return true;
 
         } else {
+            System.out.println("debug6");
             return false;
         }
     }

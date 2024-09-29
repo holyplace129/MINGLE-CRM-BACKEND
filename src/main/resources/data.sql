@@ -23,7 +23,7 @@ VALUES (1, '김민수', 'vsimonitto0@1688.com', 'dP6.Ie\Jkf', 'MANAGER', '2023-0
         '2024-04-27', TRUE, FALSE),
        (22, '찜케터', 'zzimni98@gmail.com', '$2a$10$n.HK7abog5/EOYBhcs6bGuDqcMKNxJ.aPA4vhIt7RRvjgYo1lern2',
         'ROLE_MARKETER', '2024-06-13', TRUE, FALSE),
-       (23, '동니저', 'test@gmail.com', '$2a$10$k44kauejFFkukb7MluJxP.n8GEkj6I/yv/mU1x5Uy49WTXAE47x3q', 'ROLE_MANAGER',
+       (23, '동니저', 'kwonseongji129@gmail.com', '$2a$10$k44kauejFFkukb7MluJxP.n8GEkj6I/yv/mU1x5Uy49WTXAE47x3q', 'ROLE_MANAGER',
         '2024-06-13', TRUE, FALSE),
        (24, '강찬미', 'rkdcksal02@gmail.com', '$2a$10$P3KjOKveO5GSPrXEnBB5wepTlzjXCuT8ThgTlhkwcdN0tfup.M9gq', 'ROLE_CONSULTANT', '2024-06-13', TRUE, FALSE);
 
@@ -451,7 +451,7 @@ VALUES (1, '김민준', 'GOLD', '010-9969-6203', 'audgnswkd1912398@gmail.com', '
         FALSE, 2),
        (187, '정재훈', 'DIAMOND', '010-7909-6345', 'ccattow56@webeden.co.uk', '서울특별시 강남구 22 포레스트 데일 로드', 13,
         'Ut at dolor quis odio consequat varius. Integer ac leo.', 'Male', '1949-08-02', '2021-05-28', FALSE, 2),
-       (188, '김현우', 'BROWN', '010-8199-2853', 'kwonseongji129@gmail.com', '서울특별시 동대문구 005 스콧 서클', 10,
+       (188, '김현우', 'BROWN', '010-8199-2853', 'kwonseongji3129@gmail.com', '서울특별시 동대문구 005 스콧 서클', 10,
         'Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.', 'Female',
         '2003-07-24', '2018-12-03', FALSE, 4),
        (189, '한서윤', 'BROWN', '010-1435-9519', 'twillicott58@google.com.au', '서울특별시 강동구 7387 루딩턴 서클', 7, '', 'Male',
